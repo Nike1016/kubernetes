@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gitbook-cli > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid-gb3 > mermaid > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-theme-api > cheerio > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid-gb3 > mermaid > dagre-layout > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid-gb3 > mermaid > dagre-d3-renderer > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid-gb3 > mermaid > dagre-layout > graphlibrary > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid-gb3 > mermaid > dagre-d3-renderer > dagre-layout > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid-gb3 > mermaid > dagre-d3-renderer > graphlib > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid > phantomjs > request > form-data > async > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-plugin-mermaid-gb3 > mermaid > dagre-d3-renderer > dagre-layout > graphlibrary > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - gitbook-cli > npmi > npm > request > form-data > async > lodash:
+        patched: '2020-04-30T21:34:27.918Z'
+    - lodash:
+        patched: '2020-04-30T21:34:27.918Z'
